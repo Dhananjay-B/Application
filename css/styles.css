@@ -1,0 +1,35 @@
+h1{
+    font-size: 60px;
+    font-family: 'Roboto Serif', sans-serif;
+}
+img{
+    width: 74%;
+    padding: 0 0 0 50px;
+}
+
+.content{
+    padding: 200px 150px;
+}
+.btn{
+    margin-right: 20px;
+}
+@media (max-width: 1182px){
+    h1{
+        font-size: 50px;
+    }
+    img{
+        width: 100%;
+        margin: 50px 0 20px;
+        padding: 0;
+    }
+    .btn{
+        margin-top: 20px;
+    }
+    .content{
+        padding: 50px;
+        
+    }
+    .col{
+        padding: 50px;
+    }
+}
